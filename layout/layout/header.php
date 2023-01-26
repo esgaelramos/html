@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="logo icon" href="assets/logo.ico">
+    <meta name="author" content="GIRA PREPA"/>
     <meta name="copyright" content="Copyright GIRA 2023" />
     <!-- ---------- STYLES ---------- -->
     <link rel="stylesheet" href="css/style.css">
@@ -28,11 +29,11 @@
                 </a>
             </div>
             <div class="navbar-items" id="_items">
-                <a href="/cursos/index.php">CURSO</a>
-                <a href="/planes/index.php">PLANES</a>
-                <a href="/blog/index.php">BLOG</a>
-                <a href="/guia/index.php">GUIA</a>
-                <a href="/contacto/index.php">CONTACTO</a>
+                <a href="/curso/">CURSO</a>
+                <a href="/planes/">PLANES</a>
+                <a href="/blog/">BLOG</a>
+                <a href="/guia/">GUIA</a>
+                <a href="/contacto/">CONTACTO</a>
                 <button class="switch" id="switch">
 					<span><i class="fas fa-sun"></i></span>
 					<span><i class="fas fa-moon"></i></span>
