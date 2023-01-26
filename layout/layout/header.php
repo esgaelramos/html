@@ -1,15 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="logo icon" href="assets/logo.ico">
-    <title>GIRA PREPA | COMIPEMS</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="gira prepa, comipems,">
-    <meta name="author" content="GIRA PREPA" />
     <meta name="copyright" content="Copyright GIRA 2023" />
     <!-- ---------- STYLES ---------- -->
     <link rel="stylesheet" href="css/style.css">
@@ -33,11 +28,11 @@
                 </a>
             </div>
             <div class="navbar-items" id="_items">
-                <a href="/">CURSO</a>
-                <a href="/">PLANES</a>
-                <a href="/">BLOG</a>
-                <a href="/">GUIA</a>
-                <a href="/">CONTACTO</a>
+                <a href="/cursos/index.php">CURSO</a>
+                <a href="/planes/index.php">PLANES</a>
+                <a href="/blog/index.php">BLOG</a>
+                <a href="/guia/index.php">GUIA</a>
+                <a href="/contacto/index.php">CONTACTO</a>
                 <button class="switch" id="switch">
 					<span><i class="fas fa-sun"></i></span>
 					<span><i class="fas fa-moon"></i></span>
@@ -49,5 +44,4 @@
                 <span></span>
             </div>
         </nav>
-    </header>
-    <br><br>
+    </header><br><br>

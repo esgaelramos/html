@@ -40,7 +40,6 @@
             <p class="footer-final">GIRA PREPA ® 2023 | Derechos Reservados v3.12</p>    
         </div>
     </footer>    
-
     <!-- ---------- JS ---------- -->
     <script src="js/main.js"></script>
 </body>
