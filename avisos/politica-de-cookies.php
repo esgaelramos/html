@@ -1,0 +1,1 @@
+<?php require('../layout/header.php') ?><head><title>POLÍTICA DE COOKIES | GIRA PREPA</title><meta name=robots content=noindex><meta name=description content><meta name=keywords content="gira prepa, comipems,"></head><main><h1>POLÍTICA DE COOKIES</h1><h2>Working with PHP</h2><?php require('../layout/faqs.php') ?></main><?php require('../layout/footer.php') ?>
