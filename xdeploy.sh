@@ -42,6 +42,7 @@ echo 'El commit tendrá el comentario <<'$1'>>, ¡excelente!\n'
 
 echo 'Se sube el cambio a Repositorio Legible :)'
 cd /home/USER/xcode/MyFrontGiraPrepa
+git pull || :
 git add . || :
 git commit -m "$1" || :
 git push || :
@@ -49,6 +50,7 @@ echo '\n'
 
 echo 'Se sube el cambio a Repositorio Minificado :)'
 cd /home/USER/xcode/html
+git pull || :
 git add . || :
 git commit -m "$1" || :
 git push || :
