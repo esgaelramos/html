@@ -60,4 +60,3 @@ echo '¡El cambio se ha sido subido!\n'
 
 echo 'Entrando al VPS :)'
 ssh USER@IP -p PORT "sh sh.sh"
-
