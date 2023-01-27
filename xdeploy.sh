@@ -1,4 +1,5 @@
 #! /bin/bash
+
 set -e
 echo 'Initiated deploy...\n'
 
@@ -17,7 +18,9 @@ mkdir $web_dirs_preguntas 2>/dev/null || :
 
 echo 'Copiando assets\n'
 cp -r /home/USER/xcode/MyFrontGiraPrepa/assets/ /home/USER/xcode/html/
+cp /home/USER/xcode/MyFrontGiraPrepa/.gitignore /home/USER/xcode/html/.gitignore
 cp /home/USER/xcode/MyFrontGiraPrepa/xdeploy.sh /home/USER/xcode/html/xdeploy.sh
+cp /home/USER/xcode/MyFrontGiraPrepa/list_files.py /home/USER/xcode/html/list_files.py
 
 echo 'Comprobando dirs'
 web_dirs=$(find /home/USER/xcode/MyFrontGiraPrepa/* -type d | wc -l)
@@ -28,6 +31,9 @@ else
     echo 'ERROR\n The number of DIRS arent equal WEB:' $web_dirs 'MIN_WEB:' $min_web_dirs '.\n Create DIRS and try again.\n'
     exit 1
 fi
+
+cd /home/USER/xcode/minWebGIRAPREPA/
+pip install -r requirements.txt
 
 sh /home/USER/xcode/minWebGIRAPREPA/min.sh;
 echo 'Archivos minimizados\n'

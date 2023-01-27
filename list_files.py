@@ -1,0 +1,21 @@
+# ALL FILES!
+files = [
+    'indexa.html',
+    'index.php',
+    'layout/header.php',
+    'layout/footer.php',
+    'layout/faqs.php',
+    'curso/index.php',
+    'planes/index.php',
+    'blog/index.php',
+    'guia/index.php',
+    'contacto/index.php',
+    'ayuda/index.php',
+    'avisos/aviso-de-privacidad.php',
+    'avisos/politica-de-cookies.php',
+    'avisos/terminos-y-condiciones.php',
+    'preguntas/index.php',    
+    'preventa/index.php',
+    'layout/planes.php',
+    'preguntas/es/index.php',
+]
