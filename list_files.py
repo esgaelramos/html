@@ -18,4 +18,5 @@ files = [
     'preventa/index.php',
     'layout/planes.php',
     'preguntas/es/index.php',
+    'layout/banner.php',
 ]

@@ -5,3 +5,4 @@ const toggles=document.querySelectorAll('.faq-toggle');toggles.forEach(toggle=>{
 else{document.getElementById('header_navbar').style.top='-79vh';}
 ubicationPrincipal=Scroll_Now;}
 window.addEventListener('scroll',showNav)
+const $days=document.getElementById('countdown-days'),$hours=document.getElementById('countdown-hours'),$minutes=document.getElementById('countdown-minutes'),$seconds=document.getElementById('countdown-seconds');const countdownDate=new Date('02 4, 2023 23:59:59').getTime();let interval=setInterval(function(){const now=new Date().getTime();let distance=countdownDate-now;let days=Math.floor(distance/(1000*60*60*24));let hours=Math.floor((distance%(1000*60*60*24))/(1000*60*60));let minutes=Math.floor((distance%(1000*60*60))/(1000*60));let seconds=Math.floor((distance%(1000*60))/(1000));$days.innerHTML=days;$hours.innerHTML=('0'+hours).slice(-2);$minutes.innerHTML=('0'+minutes).slice(-2);$seconds.innerHTML=('0'+seconds).slice(-2);},1000);
