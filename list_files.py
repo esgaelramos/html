@@ -19,4 +19,5 @@ files = [
     'layout/planes.php',
     'preguntas/es/index.php',
     'layout/banner.php',
+    'layout/why-buy.php',
 ]
