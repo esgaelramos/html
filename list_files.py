@@ -21,4 +21,5 @@ files = [
     'layout/banner.php',
     'layout/why-buy.php',
     'layout/min-blog.php',
+    'layout/models-guias.php',
 ]
