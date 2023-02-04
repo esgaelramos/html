@@ -22,4 +22,7 @@ files = [
     'layout/why-buy.php',
     'layout/min-blog.php',
     'layout/models-guias.php',
+    'contacto/correo-enviado.php',
+    'layout/x-send-mail.php',
+    'layout/contact-form.php',
 ]
