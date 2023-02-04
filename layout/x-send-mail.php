@@ -6,15 +6,15 @@ $correo = $_POST['email'];
 $telefono = $_POST['phone'];
 $mensaje = $_POST['message'];
 $ip = $_SERVER['REMOTE_ADDR'];
-
+    
 // Datos para el correo
 $destinatario = "giraprepa+contact@gmail.com";
-$asunto = "Contacto desde nuestra web";
+$asunto = "Contact from Web :)";
 
 $carta = "De: $nombre \n";
 $carta .= "Correo: $correo \n";
 $carta .= "Telefono: $telefono \n";
-$carta .= "Mensaje: $mensaje\n";
+$carta .= "Mensaje: $mensaje \n";
 $carta .= "IP: $ip";
 
 // Enviando Mensaje
