@@ -2,7 +2,7 @@
 
 // Llamando a los campos
 $nombre = $_POST['name'];
-$correo = $_POST['mail'];
+$correo = $_POST['email'];
 $telefono = $_POST['phone'];
 $mensaje = $_POST['message'];
 
