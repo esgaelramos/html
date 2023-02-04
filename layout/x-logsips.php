@@ -7,7 +7,7 @@
     function write_visita (){
 
         //Indicar ruta de archivo válida
-        $archivo="../giraprepaips.log";
+        $archivo="/home/esgaelramos/giraprepaips.log";
 
         //Si que quiere ignorar la propia IP escribirla aquí, esto se podría automatizar
         $ip="mi.ip.";
