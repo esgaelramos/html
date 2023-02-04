@@ -25,5 +25,4 @@ files = [
     'contacto/correo-enviado.php',
     'layout/x-send-mail.php',
     'layout/contact-form.php',
-    'layout/x-logsips.php',
 ]
