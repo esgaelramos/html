@@ -1,4 +1,4 @@
-<section class=why><h2 class=why-title>Ventajas COMIPEMS</h2><div class=why-items><div class=why-exp><div class=why-img><img src=https://i.ibb.co/fxb9dvK/gira-circle.webp alt="MEJORA TU PERFIL CVPROPIO" width=10 height=10></div><div class=why-text><p><strong>MEJORA TU PERFIL</strong><br> Hazte notar con un CV <b>perfecto</b>, muestra tus <b>habilidades</b>, explota tus <b>conocimientos</b>, y disfruta del empleo que deseas. </p></div></div><div class=why-exp><style>
+<section class=why><h2 class=why-title>Ventajas COMIPEMS</h2><div class=why-items><div class=why-exp><div class=why-img><img id=ltest src=https://i.ibb.co/fxb9dvK/gira-circle.webp alt="MEJORA TU PERFIL CVPROPIO" width=10 height=10></div><div class=why-text><p><strong>MEJORA TU PERFIL</strong><br> Hazte notar con un CV <b>perfecto</b>, muestra tus <b>habilidades</b>, explota tus <b>conocimientos</b>, y disfruta del empleo que deseas. </p></div></div><div class=why-exp><style>
                     #ltest {
                         -webkit-filter: drop-shadow(5px 5px 0 black)
                         drop-shadow(-5px -5px 0 black);
