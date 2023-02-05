@@ -5,6 +5,7 @@ echo 'Initiated deploy...\n'
 
 web_dirs=$(find /home/USER/xcode/MyFrontGiraPrepa/* -maxdepth 0 -type d -printf "%f\n")
 web_dirs_preguntas=$(find /home/USER/xcode/MyFrontGiraPrepa/preguntas/* -maxdepth 0 -type d -printf "%f\n")
+web_dirs_curso=$(find /home/USER/xcode/MyFrontGiraPrepa/curso/* -maxdepth 0 -type d -printf "%f\n")
 
 echo 'Limpiando MIN dir'
 cd /home/USER/xcode/html/
@@ -15,6 +16,8 @@ cd /home/USER/xcode/html/
 mkdir $web_dirs 2>/dev/null || :
 cd /home/USER/xcode/html/preguntas/
 mkdir $web_dirs_preguntas 2>/dev/null || :
+cd /home/USER/xcode/html/curso/
+mkdir $web_dirs_curso 2>/dev/null || :
 
 echo 'Copiando assets\n'
 cp -r /home/USER/xcode/MyFrontGiraPrepa/assets/ /home/USER/xcode/html/

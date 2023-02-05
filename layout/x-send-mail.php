@@ -9,7 +9,7 @@ $ip = $_SERVER['REMOTE_ADDR'];
     
 // Datos para el correo
 $destinatario = "giraprepa+contact@gmail.com";
-$asunto = "Contact from Web :)";
+$asunto = "Contact from Web";
 
 $carta = "De: $nombre \n";
 $carta .= "Correo: $correo \n";
