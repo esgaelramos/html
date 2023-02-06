@@ -53,4 +53,5 @@ files = [
     'preguntas/qui/index.php',
     'preventa/index.php',
     'temario/index.php',
+    'blog/cuanto-aciertos-necesito-comipems-2023.php',
 ]
