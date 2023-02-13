@@ -53,9 +53,11 @@ files = [
     'preguntas/qui/index.php',
     'preventa/index.php',
     'temario/index.php',
-    'blog/cuanto-aciertos-necesito-comipems-2023.php',
+    'blog/cuanto-aciertos-necesito-comipems-2023/index.php',
     'layout/score-scholls.php',
     'layout/social-media-links.php',
     'layout/about-us.php',
-    
+    'blog/como-estudiar-para-tu-examen-comipems/index.php',
+    'blog/10-consejos-para-superar-comipems/index.php',
+    'blog/temario-completo-para-el-examen-comipems-2023/index.php',
 ]
