@@ -55,4 +55,7 @@ files = [
     'temario/index.php',
     'blog/cuanto-aciertos-necesito-comipems-2023.php',
     'layout/score-scholls.php',
+    'layout/social-media-links.php',
+    'layout/about-us.php',
+    
 ]
